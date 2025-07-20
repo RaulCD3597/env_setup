@@ -26,7 +26,7 @@ if [ $? -eq 0 ]; then
   stow zshrc
   stow ghostty
   stow tmux
-  # stow bat
+  stow bat
 else
   echo "Failed to clone the repository."
   exit 1

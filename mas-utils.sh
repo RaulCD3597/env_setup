@@ -19,7 +19,7 @@ install_mas_pkgs() {
     fi
   done
 
-  for pkg in "${to_install}"; do
+  for pkg in "${to_install[@]}"; do
     echo "Installing: ${pkg}"
     mas install "${pkg}"
   done

@@ -58,5 +58,5 @@ echo "Installing brew casks..."
 install_brew_pkgs "${BREW_CASKS[@]}"
 
 # Install mas packages
-echo "Installing brew casks..."
+echo "Installing mas packages..."
 install_mas_pkgs "${MAS_PKGS[@]}"
